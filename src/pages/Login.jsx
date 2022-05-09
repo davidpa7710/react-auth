@@ -6,7 +6,7 @@ const Login = () => {
       <main className="form-signin">
         <form onSubmit={()=>{}}>
           <img className="mb-4" src={logo} alt="" width="72" height="57" />
-          <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
+          <h1 className="h3 mb-3 fw-normal">Please Log in</h1>
 
           <div className="form-floating">
             <input 
@@ -33,6 +33,8 @@ const Login = () => {
             />
             <label htmlFor="password">Password</label>
           </div>
+
+          
 
           <div className="checkbox mb-3">
             <label>

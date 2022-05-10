@@ -1,5 +1,5 @@
 
-export default function() {
+export default function(token) {
     const token = window.localStorage.getItem('token')
 
     if(token) {
